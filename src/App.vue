@@ -1,16 +1,13 @@
 <template>
   <div id="app">
-    <LoginForm></LoginForm>
     <router-view/>
   </div>
 </template>
 
 <script>
-import LoginForm from './components/LoginForm'
 export default {
   name: 'App',
   components: {
-    'LoginForm': LoginForm
   }
 }
 </script>
